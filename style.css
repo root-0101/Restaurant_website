@@ -59,24 +59,27 @@ nav ul li a:hover {
 .hero_section {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
 
 }
 
 .hero_text {
     margin: 50px;
+    margin-left: 70px;
 
 }
 
 .hero_text h1 {
     font-size: 40px;
-    width: 300px;
+    width: 350px;
     margin-bottom: 20px;
 }
 
 .hero_text p {
-    line-height: 25px;
+    line-height: 35px;
     font-size: 18px;
     margin-bottom: 30px;
+    width: 700px;
 
 }
 
