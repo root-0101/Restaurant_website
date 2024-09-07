@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+hr {
+    height: 10px;
+    background-color: #6c6c6c;
+    border: none;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-top: -30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 30px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.hero_section {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.hero_text {
+    margin: 50px;
+
+}
+
+.hero_text h1 {
+    font-size: 40px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.hero_text p {
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+.order {
+    width: 200px;
+    background-color: rgb(212, 41, 41);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.about img {
+    margin: 50px;
+    width: 400px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about_text {
+    width: 410px;
+    margin: 50px;
+    margin-right: 200px;
+}
+
+.about_text h2 {
+    margin-top: -70px;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.hero_text h1 b {
+    font-size: 60px;
+    color: red;
+
+}
+
+.about_text p {
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.subtext {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card_section {
+    height: 80vh;
+
+}
+
+.card_section img {
+    height: 80vh;
+    opacity: 0.33;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.card_section h2 {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    font-size: 38px;
+
+}
+
+.card {
+    width: 300px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 40px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgba(255, 0, 0, 0.402);
+    border: none;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.card:hover {
+    transform: translatey(-15px);
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+.cardtext {
+    font-size: 20px;
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_img img {
+    opacity: 1;
+    z-index: 1;
+    height: 180px;
+    width: 180px;
+    margin: 20px;
+    margin-left: 50px;
+    object-fit: contain;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.text {
+    margin: 200px 30px 30px 30px;
+}
+
+.contact_section {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+
+}
+
+.contact_image {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.contact_image h1{
+    margin-left: 100px;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.contact_image p{
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 100px;
+    font-weight: 600;
+}
+
+.contactbox {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    gap: 30px;
+}
+
+.contact_section img {
+    margin: 20px 100px;
+
+
+
+}
+
+.contactbox input,
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid red;
+    background: none;
+    color: #fff;
+}
+
+.submit {
+    width: 200px;
+    padding: 10px;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+textarea {
+    height: 130px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background: none;
+    color: red;
+    border: 1.5px solid red;
+}
